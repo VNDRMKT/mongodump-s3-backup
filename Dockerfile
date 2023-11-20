@@ -1,4 +1,4 @@
-FROM mongo:4.4.17
+FROM mongo:7.0.3
 
 LABEL maintainer="Nnadozie Okeke <dozie@fronte.io>"
 LABEL repository="https://github.com/VNDRMKT/mongodump-s3-backup"
