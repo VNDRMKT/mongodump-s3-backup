@@ -1,5 +1,7 @@
 #!/bin/sh -l
 
+set -o pipefail
+
 apt-get update
 apt-get install -y curl
 
